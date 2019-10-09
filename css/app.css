@@ -2,91 +2,30 @@
 @import 'type.scss';
 @import 'vars';
 @import 'timeline-item';
-
-font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Bangers', cursive;
 font-family: 'Merriweather', serif;
 */
 
 .intro{
+  color:#ffffff;
   background-image: url("../img/arena.jpg");
-
-}
-
-.panel{
   height: 100vh;
   background-size: cover;
 }
 
+.main-content{
+  color:#ffffff;
+  padding-top: 10rem;
+  height: 100vh;
+  background-color: #12223d;
+}
 
 h1{
-    font-family:'Rubik Mono One', sans-serif;
-    color: #12223d;
-    background-color: #f2b655;
-    position: fixed;
-    width:50%;
-    left:0;
-    bottom:0;
-    text-align: center;
-  }
-
-h2 {
-    font-weight: 700; 
-    writing-mode: vertical-rl;
-    font-size: 10rem;
-    text-orientation: upright;
-    text-transform: uppercase;
-    letter-spacing: -25px;
-    color:#f2b655;
-  }
-
-  h3{
-        font-family: 'Merriweather Sans', sans-serif;
-        color:#598cc3;
-        font-size: 4rem;
-
-  }
-
-  h4{
-    color: #12223d;
-    font-weight: 700; 
-    writing-mode: vertical-rl;
-    font-size: 10rem;
-    text-orientation: upright;
-    text-transform: uppercase;
-    letter-spacing: -25px;
-  }
-
-  .one{
-    background-color: #12223d;
-  }
-
-  .two{
-    background-color: #f2b655;
-    padding-top: 3rem;
-  }
-
-.three{
-    background-color: #598cc3;
-    padding-top: 3rem;
-
+  font-family: 'Bangers', cursive;
+  font-size: 5rem;
 }
 
-.four{
-     background-color: #12223d;
-
+p{
+  font-family: 'Merriweather', serif;
 }
-
-.five{
-    background-color: #f2b655;
-    padding-top: 3rem;
-}
-
-p {
-    margin-top: .5rem;
-    border-top: .5rem solid #e5e5e5;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color:#ffffff;
-    font-family: 'Merriweather', serif;
-  }
 

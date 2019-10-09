@@ -1,3 +1,10 @@
+$(document).foundation();
+
+$('h1').click(function(){
+  // switch toggleClass/addClass
+  $(this).toggleClass('selected');
+});
+
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("jquery"));
