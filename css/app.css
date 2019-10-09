@@ -17,14 +17,25 @@ font-family: 'Merriweather', serif;
   color:#ffffff;
   padding-top: 2rem;
   height: 100vh;
-  background-color: #12223d;
+  background-image: url("../img/ice.jpg");
+   height: 100vh;
+  background-size: cover;
 }
+
+.background-content{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 1;
+}
+
 
 h1{
   font-family: 'Bangers', cursive;
   font-size: 5rem;
   color: #598cc3;
-  padding-bottom: 2rem;
+  line-height: 1;
 }
 
 h2{
@@ -35,10 +46,15 @@ h2{
   text-align: center;
 }
 
+
+h3{
+  color: #f2b655;
+   font-family: 'Bangers', cursive;
+    font-size: 5rem;
+}
+
 p{
   font-family: 'Merriweather', serif;
-  background-color: #f2b655;
-  width:100%;
-  padding: 2rem;
+  font-size:1.3rem;
 }
 
