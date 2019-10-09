@@ -15,7 +15,7 @@ font-family: 'Merriweather', serif;
 
 .main-content{
   color:#ffffff;
-  padding-top: 10rem;
+  padding-top: 2rem;
   height: 100vh;
   background-color: #12223d;
 }
@@ -23,9 +23,22 @@ font-family: 'Merriweather', serif;
 h1{
   font-family: 'Bangers', cursive;
   font-size: 5rem;
+  color: #598cc3;
+  padding-bottom: 2rem;
+}
+
+h2{
+  font-family: 'Bangers', cursive;
+  font-size: 5rem;
+  background-color:#12223d;
+  width:75%;
+  text-align: center;
 }
 
 p{
   font-family: 'Merriweather', serif;
+  background-color: #f2b655;
+  width:100%;
+  padding: 2rem;
 }
 
