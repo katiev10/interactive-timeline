@@ -1,0 +1,43 @@
+.intro{
+  color:#ffffff;
+  background-image: url("../img/arena.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.main-content{
+  color:#ffffff;
+  padding-top: 2rem;
+  height: 100vh;
+  background-image: url("../img/ice.jpg");
+   height: 100vh;
+  background-size: cover;
+  padding-top: 10rem;
+}
+
+.background-content{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 1;
+}
+
+
+
+.image{
+  position:relative;
+  z-index: 2;
+}
+
+#bigYellowCircle {
+    background-image: url("../img/puck2.png");
+    background-repeat: no-repeat;
+    background-position: 30% 0;
+    background-size: 20%;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: 1;
+}
