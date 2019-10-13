@@ -1,7 +1,7 @@
 
 // Parallax via https://www.kirupa.com/html5/smooth_parallax_scrolling.htm
 
-var puck = document.querySelector(".puck");
+var puck = document.querySelector("#puck");
 var status = 0;
 
 function setTranslate(xPos, yPos, el) {
@@ -17,7 +17,7 @@ function scrollLoop() {
   xScrollPosition = window.scrollX;
   yScrollPosition = window.scrollY;
 
-  setTranslate(0, yScrollPosition * .01, puck);
+  setTranslate(0, yScrollPosition * .03, puck);
 
   
   requestAnimationFrame(scrollLoop);
