@@ -4,6 +4,16 @@ body{
   font-style: normal;
 }
 
+.intro p{
+  padding: 2rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #12223d;
+}
+
+
 h1{
 
   font-family: giza-five, serif;
@@ -15,29 +25,9 @@ h1{
   border-bottom: #f1b654 solid .2rem;
 }
 
-h2{
-  font-family:giza-five, serif;
-  font-size: 5rem;
-  background-color:#f2b655;
-  width:150%;
-  text-align: center;
-}
-
-
-h3{
-  color: #f2b655;
-  font-family: 'Bangers', cursive;
-  font-size: 5rem;
-}
 
 p{
   font-family: 'Merriweather', serif;
   font-size:1.2rem;
   padding-top:2rem;
-}
-
-@media only screen and (max-width: 600px) {
-  .image{
-    width:10%;
-  }
 }
